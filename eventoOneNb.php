@@ -59,28 +59,29 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/index.css">
     <link rel="stylesheet" href="public/css/vEventoOneIA.css">
-    <title>Nube y Transformación Empresarial - NB</title>
+    <title>Estrategias para la Migración a la Nube - NB</title>
 </head>
 <body>
 
     <?php include('layout/login/nav.php'); ?>
     
     <section>
-        <h2>Explorando la Inteligencia Artificial</h2>
+        <h2>Estrategias para la migración a la nube</h2>
 
         <div>
             <div class="descripcion">
                 <h2>Descripción del Evento:</h2>
                 <p>
-                    Sumérgete en el mundo de la Inteligencia Artificial (IA) con este evento especializado, donde se explorarán los 
-                    avances más recientes, las aplicaciones más innovadoras y los desafíos que enfrenta esta tecnología revolucionaria. 
-                    Durante el evento, expertos de renombre en IA compartirán casos de éxito que demuestran cómo esta tecnología está 
-                    transformando industrias y mejorando procesos.
+                En este evento, se compartió las mejores prácticas para realizar migraciones exitosas a la nube.
+                Se abordaron temas como la evaluación de plataformas cloud, la optimización de costos y la seguridad 
+                en entornos híbridos. Los asistentes aprendieron a diseñar estrategias personalizadas para sus 
+                organizaciones, asegurando una transición fluida. Se incluyeron estudios de caso de empresas que 
+                lograron reducir costos operativos y mejorar la escalabilidad mediante soluciones en la nube.
                 </p>
             </div>
 
             <div class="imagen">
-                <img class="ilustracion" src="src/image/noticiaIAone.png" alt="Explorando la Inteligencia Artificial">
+                <img class="ilustracion" src="src/image/noticiaNBone.jpg" alt="Estrategias para la migración a la nube">
             </div>
         </div>
     </section>
@@ -89,13 +90,13 @@ try {
         <div class="event-info">
             <h3>Detalles del Evento</h3>
             <ul>
-                <li><strong>Categoría:</strong> Inteligencia Artificial (IA)</li>
-                <li><strong>Modalidad:</strong> Virtual</li>
-                <li><strong>Fecha y Hora:</strong> 15 de febrero de 2025, de 10:00 a 15:00 (GMT-5)</li>
-                <li><strong>Entidad Responsable:</strong> Centro de Innovación Tecnológica</li>
-                <li><strong>Costo:</strong> Gratis</li>
-                <li><strong>Capacidad Máxima:</strong> 200 participantes</li>
-                <li><strong>Estado del Evento:</strong> Activo</li>
+                <li><strong>Categoría:</strong> La nube</li>
+                <li><strong>Modalidad:</strong> Presencial</li>
+                <li><strong>Fecha y Hora:</strong> 7 de marzo de 2024, de 10:00 a 15:00 (GMT-5)</li>
+                <li><strong>Entidad Responsable:</strong> CloudWorks</li>
+                <li><strong>Costo:</strong> $20 por persona </li>
+                <li><strong>Capacidad Máxima:</strong> 100 participantes</li>
+                <li><strong>Estado del Evento:</strong> Terminado </li>
             </ul>
         </div>
 

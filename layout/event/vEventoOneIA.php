@@ -34,7 +34,7 @@
 
 <div class="event-details">
     <div class="event-info">
-        <h2>Detalles del Evento</h2>
+        <h>Detalles del Evento</h>
         <ul>
             <li><strong>Categoría:</strong> Inteligencia Artificial (IA)</li>
             <li><strong>Modalidad:</strong> Virtual</li>
@@ -54,5 +54,3 @@
         </iframe>
     </div>
 </div>
-
-

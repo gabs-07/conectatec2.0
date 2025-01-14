@@ -61,28 +61,28 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/index.css">
     <link rel="stylesheet" href="public/css/vEventoOneIA.css">
-    <title>Ciberseguridad en la Era Digital - CS</title>
+    <title> Ciberseguridad 360: Protegiendo el futuro digital - CS</title>
 </head>
 <body>
 
     <?php include('layout/login/nav.php'); ?>
     
     <section> 
-        <h2>Explorando la Inteligencia Artificial</h2>
+        <h2>Ciberseguridad 360: Protegiendo el futuro digital</h2>
 
         <div>
             <div class="descripcion">
                 <h2>Descripción del Evento:</h2>
                 <p>
-                    Sumérgete en el mundo de la Inteligencia Artificial (IA) con este evento especializado, donde se explorarán los 
-                    avances más recientes, las aplicaciones más innovadoras y los desafíos que enfrenta esta tecnología revolucionaria. 
-                    Durante el evento, expertos de renombre en IA compartirán casos de éxito que demuestran cómo esta tecnología está 
-                    transformando industrias y mejorando procesos.
+                Este evento proporcionó una visión integral sobre las amenazas cibernéticas más recientes y las 
+                estrategias para combatirlas. CyberShield Alliance presentó casos reales de ciberataques y cómo empresas
+                líderes lograron mitigarlos. Se discutieron temas como la protección de datos personales, el uso
+                de inteligencia artificial en ciberseguridad y el impacto del ransomware en infraestructuras críticas. 
                 </p>
             </div>
 
             <div class="imagen">
-                <img class="ilustracion" src="src/image/noticiaIAone.png" alt="Explorando la Inteligencia Artificial">
+                <img class="ilustracion" src="src/image/noticiaCSone.jpg" alt="Explorando la Inteligencia Artificial">
             </div>
         </div>
     </section>
@@ -91,13 +91,13 @@ try {
         <div class="event-info">
             <h3>Detalles del Evento</h3>
             <ul>
-                <li><strong>Categoría:</strong> Inteligencia Artificial (IA)</li>
+                <li><strong>Categoría:</strong> Ciberseguridad</li>
                 <li><strong>Modalidad:</strong> Virtual</li>
-                <li><strong>Fecha y Hora:</strong> 15 de febrero de 2025, de 10:00 a 15:00 (GMT-5)</li>
-                <li><strong>Entidad Responsable:</strong> Centro de Innovación Tecnológica</li>
+                <li><strong>Fecha y Hora:</strong> 18 de febrero de 2024, de 10:00 a 13:00 (GMT-5)</li>
+                <li><strong>Entidad Responsable:</strong>CyberShield Alliance</li>
                 <li><strong>Costo:</strong> Gratis</li>
-                <li><strong>Capacidad Máxima:</strong> 200 participantes</li>
-                <li><strong>Estado del Evento:</strong> Activo</li>
+                <li><strong>Capacidad Máxima:</strong> 150 participantes</li>
+                <li><strong>Estado del Evento:</strong> Terminado </li>
             </ul>
         </div>
 

@@ -59,28 +59,29 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/index.css">
     <link rel="stylesheet" href="public/css/vEventoOneIA.css">
-    <title>Big Data y Análisis Avanzado - BD</title>
+    <title>Big Data para la Toma de Decisiones Estratégicas - BD</title>
 </head>
 <body>
 
     <?php include('layout/login/nav.php'); ?>
     
     <section>
-        <h2>Explorando la Inteligencia Artificial</h2>
+        <h2> Big Data para la toma de decisiones estratégicas</h2>
 
         <div>
             <div class="descripcion">
                 <h2>Descripción del Evento:</h2>
                 <p>
-                    Sumérgete en el mundo de la Inteligencia Artificial (IA) con este evento especializado, donde se explorarán los 
-                    avances más recientes, las aplicaciones más innovadoras y los desafíos que enfrenta esta tecnología revolucionaria. 
-                    Durante el evento, expertos de renombre en IA compartirán casos de éxito que demuestran cómo esta tecnología está 
-                    transformando industrias y mejorando procesos.
+                Se ofreció un análisis detallado sobre el impacto de Big Data en la estrategia empresarial. 
+                Se presentaron casos de éxito de empresas que usaron datos para identificar nuevas oportunidades
+                de negocio y optimizar sus operaciones. También se abordaron los retos en el manejo de datos, como
+                la privacidad y la calidad de la información. Los asistentes trabajaron en grupos para desarrollar 
+                estrategias basadas en datos para un problema empresarial ficticio.
                 </p>
             </div>
 
             <div class="imagen">
-                <img class="ilustracion" src="src/image/noticiaIAone.png" alt="Explorando la Inteligencia Artificial">
+                <img class="ilustracion" src="src/image/noticiaBDone.png" alt="Big Data para la toma de decisiones">
             </div>
         </div>
     </section>
@@ -89,13 +90,13 @@ try {
         <div class="event-info">
             <h3>Detalles del Evento</h3>
             <ul>
-                <li><strong>Categoría:</strong> Inteligencia Artificial (IA)</li>
-                <li><strong>Modalidad:</strong> Virtual</li>
-                <li><strong>Fecha y Hora:</strong> 15 de febrero de 2025, de 10:00 a 15:00 (GMT-5)</li>
-                <li><strong>Entidad Responsable:</strong> Centro de Innovación Tecnológica</li>
+                <li><strong>Categoría:</strong> Big Data (BD)</li>
+                <li><strong>Modalidad:</strong> Presencial </li>
+                <li><strong>Fecha y Hora:</strong> 20 de mayo de 2024, de 13:00 a 16:00 (GMT-5)</li>
+                <li><strong>Entidad Responsable:</strong> Silvia Ramírez, consultora de datos y CEO de BigThink Analytics.</li>
                 <li><strong>Costo:</strong> Gratis</li>
                 <li><strong>Capacidad Máxima:</strong> 200 participantes</li>
-                <li><strong>Estado del Evento:</strong> Activo</li>
+                <li><strong>Estado del Evento:</strong> Terminado </li>
             </ul>
         </div>
 
