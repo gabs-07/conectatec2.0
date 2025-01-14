@@ -1,0 +1,268 @@
+/* Estilo general para la sección */
+section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   padding: 1rem;
+}
+
+h2 {
+   font-size: 2rem;
+   color: var(--primario);
+}
+
+/* Estilo general para el slider */
+#slider {
+   margin: 0 auto;
+   width: 800px;
+   max-width: 100%;
+   text-align: center;
+}
+
+#slider input[type=radio] {
+   display: none;
+}
+
+#slider label {
+   cursor: pointer;
+   text-decoration: none;
+}
+
+#slides {
+   padding: 10px;
+   border: 3px solid #ccc;
+   background: #fff;
+   position: relative;
+   z-index: 1;
+}
+
+#overflow {
+   width: 100%;
+   overflow: hidden;
+}
+
+#slide1:checked ~ #slides .inner {
+   margin-left: 0;
+}
+
+#slide2:checked ~ #slides .inner {
+   margin-left: -100%;
+}
+
+#slide3:checked ~ #slides .inner {
+   margin-left: -200%;
+}
+
+#slide4:checked ~ #slides .inner {
+   margin-left: -300%;
+}
+
+#slides .inner {
+   transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+   width: 400%;
+   line-height: 0;
+   height: 300px;
+}
+
+#slides .slide {
+   width: 25%;
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   position: relative;
+   color: #fff;
+}
+
+#slides .slide_1 {
+   background-image: url(../../src/image/noticiaIAone.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#slides .slide_2 {
+   background: #003459;
+}
+
+#slides .slide_3 {
+   background: #007EA7;
+}
+
+#slides .slide_4 {
+   background: #00A8E8;
+}
+
+/* Estilo para los controles */
+#controls {
+   margin: -180px 0 0 0;
+   width: 100%;
+   height: 50px;
+   z-index: 3;
+   position: relative;
+}
+
+#controls label {
+   transition: opacity 0.2s ease-out;
+   display: none;
+   width: 50px;
+   height: 50px;
+   opacity: .4;
+}
+
+#controls label:hover {
+   opacity: 1;
+}
+
+/* Estilo para los bullets */
+#bullets {
+   margin: 150px 0 0;
+   text-align: center;
+}
+
+#bullets label {
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   background: #ccc;
+   margin: 0 10px;
+}
+
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+   background: #444;
+}
+
+/* Asegura que el enlace sea clickeable */
+#slides .slide-content a {
+   position: relative;
+   z-index: 10; /* Asegura que el enlace esté por encima de otros elementos */
+   pointer-events: auto; /* Habilita eventos de puntero (clic) */
+   color: inherit; /* Para que el enlace herede el color */
+   text-decoration: none; /* Elimina el subrayado */
+}
+
+#slides .slide-content a h2 {
+   font-size: 1.8rem;
+   text-align: center;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.5); /* Añade un fondo semi-transparente para mejorar la visibilidad */
+   padding: 10px;
+   border-radius: 8px;
+}
+
+
+article{
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   align-items: center;
+   gap: 1rem;
+   padding: 1rem;
+   height: 50%;
+}
+
+article > .sabiasQue,
+article > .ultimaNoticia{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   justify-content: center;
+   align-items: center;
+}
+
+.sabiasQue > p,
+.ultimaNoticia > p{
+   text-align: justify;
+   font-size: 1.1rem;
+   color: var(--textoOscuro);
+}
+
+.proximamente{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+   gap: 1rem;
+}
+
+.proximamente > div{
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+
+}
+
+
+.proximamente > div > .pUno,
+.proximamente > div > .pDos,
+.proximamente > div > .pTres,
+.proximamente > div > .pCuatro,
+.proximamente > div > .pCinco{
+   display: flex;
+   width: 20%;
+   height: 150px;
+   border-radius: 1rem;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.proximamente > div > .pUno{
+   background-image: url(../../src/image/pNoticiaUno.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: brightness(50%);
+}
+
+.proximamente > div > .pDos{
+   background-image: url(../../src/image/pNoticiaDos.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: brightness(50%);
+}
+
+.proximamente > div > .pTres{
+   background-image: url(../../src/image/pNoticiaTres.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: brightness(50%);
+}
+
+.proximamente > div > .pCuatro{
+   background-image: url(../../src/image/pNoticiaCuatro.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: brightness(50%);
+}
+
+.proximamente > div > .pCinco{
+   background-image: url(../../src/image/pNoticiaCinco.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: brightness(50%);
+}
+
+.proximamente > div > .pUno > p,
+.proximamente > div > .pDos > p,
+.proximamente > div > .pTres > p,
+.proximamente > div > .pCuatro > p,
+.proximamente > div > .pCinco > p{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+   color: var(--terciario);
+   text-align: center;
+   font-size: 1.2rem;
+   color: orange;
+}
+
+
+
