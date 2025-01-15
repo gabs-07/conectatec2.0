@@ -15,28 +15,30 @@
                 <div class="inner">
                     <div class="slide slide_1">
                         <div class="slide-content">
-                            <!-- Enlace a Facebook -->
-                            <a href="https://www.facebook.com/tu-pagina" target="_blank">
+                            <a href="eventoOneIA.php" target="_blank">
                                 <h2>Explorando la Inteligencia Artificial</h2>
                             </a>
                         </div>
                     </div>
                     <div class="slide slide_2">
                         <div class="slide-content">
-                            <h2>Slide 2</h2>
-                            <p>Content for Slide 2</p>
+                            <a href="eventoOneWEB.php" target="_blank">
+                                <h2>Tendencias de Desarrollo Web 2024: Más allá de lo tradicional</h2>
+                            </a>
                         </div>
                     </div>
                     <div class="slide slide_3">
                         <div class="slide-content">
-                            <h2>Slide 3</h2>
-                            <p>Content for Slide 3</p>
+                            <a href="eventoOneCs.php" target="_blank">
+                                <h2>Ciberseguridad 360: Protegiendo el futuro digital</h2>
+                            </a>
                         </div>
                     </div>
                     <div class="slide slide_4">
                         <div class="slide-content">
-                            <h2>Slide 4</h2>
-                            <p>Content for Slide 4</p>
+                            <a href="eventoOneBd.php" target="_blank">
+                                <h2>Big Data para la toma de decisiones estratégicas</h2>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -57,6 +59,7 @@
         </div>
     </div>
 </section>
+
 
 
 

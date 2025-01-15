@@ -84,15 +84,21 @@ h2 {
 }
 
 #slides .slide_2 {
-   background: #003459;
+   background-image: url(../../src/image/noticiaWEBone.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 #slides .slide_3 {
-   background: #007EA7;
+   background-image: url(../../src/image/noticiaCSone.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 #slides .slide_4 {
-   background: #00A8E8;
+   background-image: url(../../src/image/noticiaBDone.png);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 /* Estilo para los controles */
