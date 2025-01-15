@@ -22,22 +22,24 @@
                     </div>
                     <div class="slide slide_2">
                         <div class="slide-content">
-                            <a href="eventoOneWEB.php" target="_blank">
-                                <h2>Tendencias de Desarrollo Web 2024: Más allá de lo tradicional</h2>
+                        <a href="eventoOneWEB.php" target="_blank">
+                            <h2>Tendencias de Desarrollo Web 2024: Más allá de lo tradicional                            </h2>
                             </a>
                         </div>
                     </div>
                     <div class="slide slide_3">
                         <div class="slide-content">
-                            <a href="eventoOneCs.php" target="_blank">
-                                <h2>Ciberseguridad 360: Protegiendo el futuro digital</h2>
+                        <a href="eventoOneCs.php" target="_blank">
+                            <h2>Ciberseguridad 360: Protegiendo el futuro digital                            </h2>
                             </a>
+
                         </div>
                     </div>
                     <div class="slide slide_4">
                         <div class="slide-content">
-                            <a href="eventoOneBd.php" target="_blank">
-                                <h2>Big Data para la toma de decisiones estratégicas</h2>
+                        <a href="eventoOneBd.php" target="_blank">
+                            <h2>Big Data para la toma de decisiones estratégicas
+                            </h2>
                             </a>
                         </div>
                     </div>
@@ -46,7 +48,7 @@
         </div>
 
         <div id="controls">
-            <label for="slide1"></label>
+            <label for="slide1"> njnjn</label>
             <label for="slide2"></label>
             <label for="slide3"></label>
             <label for="slide4"></label>
@@ -59,7 +61,6 @@
         </div>
     </div>
 </section>
-
 
 
 
